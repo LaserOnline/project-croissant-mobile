@@ -1,0 +1,64 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mobile_croissant",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mobile_croissant (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mobile_croissant (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Android 5554",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "Android 5556",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5556"
+        },
+        {
+            "name": "Iphone 15 Pro Max",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "49D69EC1-808B-4717-B026-82E0B6AF0DC0"
+        },
+        {
+            "name": "IphoneX",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "82a15aa5337f7ce66caaecc1d0f3a55cd9746acc"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "All Mobile",
+            "configurations": ["Android 5554","Iphone 15 Pro Max","Android 5556"]
+        },
+        {
+            "name": "Mobile",
+            "configurations": ["Android 5554","Iphone 15 Pro Max",]
+        },
+        {
+            "name": "Android",
+            "configurations": ["Android 5554","Android 5556"]
+        },
+        {
+            "name": "Devices",
+            "configurations": ["IphoneX"]
+        },
+    ]
+}
